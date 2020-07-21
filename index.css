@@ -1,8 +1,226 @@
+html{
+ margin:0;
+}
+body{
+    margin:0;
+}
+h1,h2{
+    
+    font-family: 'Dancing Script', cursive;
+}
+.header-wrapper{
+    background-image: url('/img/Background-Photo.png');
+    background-size: 100%;
+}
 .ul-wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 70% auto;
+    grid-template-rows: 30% auto;
+}
+.mid-logo{
+    height: 7em;
+    margin-top: 2em;
 }
 .ul-wrapper li{
     list-style: none;
+  
+}
+.nav-img{
+    margin-left: 3em;
+    margin-right: 3em; 
+    margin-top: 3em;
+    color: white;
+    height: 0.6em;
+}
+
+.text-nav{
+    font-size: 1.5em;
+    margin-top:1.7em;
+    margin-left:1.8em;   
+    font-family: 'Ubuntu', sans-serif; 
+  
+}
+.love-surf{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+   margin-left: 75%;
+   margin-bottom: 0em;
+}
+.love-surf-d{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 5em;
+   margin-left: 37%;
+   margin-bottom: 0em;
+   margin-top: 0.3em;
+}
+.your-story{
+    font-size: 1.8em;
+    font-family: 'Ubuntu', sans-serif; 
+    margin-left: 75%;
+    color:white;
+    margin-top:.0.2em;
+    margin-bottom: 0;
+}
+.search-bar{
+    margin-left: 40%;
+}
+.search-bar input{
+    padding: 0.8em;
+    border-radius: 0.8em;
+    border: 1em solid white;
+    margin-top: 1em;
+}
+.p2{
+    color:#27AAE1;
+    font-size:8em;
+    margin-top: 0em;
+    margin-bottom: 0.2em;
+    margin-left:16%;
+    font-weight: bold;
+}
+.welcome-note{
+    font-family:'Ubuntu', sans-serif; 
+    width:60%;
+    margin-left:20%;
+    font-weight: bold;
+}
+.welcome-text{
+    margin:1em;
+    text-align: center;
+}
+.welcome-note h2{
+    text-align: center;
+    margin-bottom: 0.4em;
+    margin-top: 0.2em   ;
+    font-size: 3em;
+}
+.young-gun{
+    background-color: #F1C40F;
+    border-radius: 0.5em;
+    
+}
+.young-gun img{
+    width: 94%;
+    margin-left:3%;
+}
+.bshp{
+ margin:0.2em 2em 0em 2em;
+ padding-bottom: 0.5em;
+ font-family:'Ubuntu', sans-serif; 
+ text-align: center;
+ font-weight: bold;
+}
+.dates-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 7em;
+    margin-left: 5%;
+    font-family: 'Rowdies', cursive;
+}
+.date p{
+    margin:0;
+}
+.date-d{
+ font-size: 7em;
+}
+.date-m{
+    font-size: 5em;
+}
+.date-y{
+    font-size: 4em;
+}
+.attraction-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 75% auto;
+    grid-gap: 1em;
+    text-align: center;
+    font-size: 1.1em;
+}
+.book-now-button{
+padding:0.5em;
+border-radius: 1.2em;
+font-size: 1.5em;
+margin-left: 43%;
+margin-top: 0.5em;
+background-color: #16A085;
+color: white;
+font-family: 'Rowdies', cursive;
+border: none;
+}
+.stef-intro-grids{
+    margin-top: 1.5em;
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-rows: 3.5%;
+    grid-gap: 2em;
+}
+.name{
+    font-size: 3em;
+    font-family:'Rowdies', cursive;
+    text-align: center;
+}
+.stef-img{
+    height: 35em;
+}
+.intro-text,.detail-text{
+    font-size: 1.35em;
+    font-family:'Ubuntu', sans-serif;
+}
+.stef-page{
+    margin-left:12em;
+    margin-right:12em;
+}
+.big-img{
+    height:20em;
+}
+.buy-tickets{
+    margin-left: 24em;
+    margin-right:5em;   
+}
+.buy-grid{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 6em;
+}
+.inp-fields{
+    border-bottom: 2px solid #16A085;   
+    font-size: 1.5em;
+    padding: 0.3em;
+    
+    font-family:'Ubuntu', sans-serif;
+}
+.pricigs{
+    font-size: 1.3em;
+    
+    font-family:'Ubuntu', sans-serif;
+}
+.buy-tickets h2{
+    margin-left: 1em;
+    margin-bottom: 0.4em;
+    margin-top: 0.2em   ;
+    font-size: 3em;
+}
+.footer{
+    margin:0;
+    background-color: #16A085;
+    padding: 1em;
+    margin-top: 1em;
+}
+.footer-grid{
+    display: grid;
+    grid-template-columns: 20% auto 25%;
+    grid-gap: 4em;
+}
+.terms{
+    color:white;
+    margin-top:2em
+
+}
+.social img{
+    height:5em;
+    margin-top:2em;
 }
