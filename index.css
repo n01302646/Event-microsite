@@ -1,0 +1,8 @@
+.ul-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 70% auto;
+}
+.ul-wrapper li{
+    list-style: none;
+}
